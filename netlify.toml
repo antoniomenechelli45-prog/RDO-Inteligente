@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/api/config-status"
+  to = "/.netlify/functions/config-status"
+  status = 200
+
+[[redirects]]
+  from = "/api/gemini/parse-rdo"
+  to = "/.netlify/functions/parse-rdo"
+  status = 200
+
+# Fallback SPA routing for React
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

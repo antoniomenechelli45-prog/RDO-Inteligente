@@ -1,0 +1,6 @@
+{
+  "name": "RDO Inteligente",
+  "description": "Aplicativo para elaboração, consulta e geração de PDFs de Relatórios Diários de Obra com auxílio de IA no canteiro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
